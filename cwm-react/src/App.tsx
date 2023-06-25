@@ -1,9 +1,9 @@
 
 import './App.css'
-import Message from './components/message'
+import ListGroup from './components/ListGroup'
 function App() {
   return <div>
-    <Message/>
+    <ListGroup/>
   </div>
 }
 
