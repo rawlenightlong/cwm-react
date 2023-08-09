@@ -20,7 +20,7 @@ function ListGroup({items, heading, onSelectItem}: ListGroupProps) {
   return (<>
     <h1>{heading}</h1>
     {items.length === 0 ? <p>No Item Found</p> : null}
-    <ul className={"listGroup"}>
+    <ul className="listGroup" style={{ backgroundColor: "yellow"}}>
     {items.map((item, index) => 
     <li
     className={selectedIndex === index ? "list-group-item active" : "list-group-item"}
