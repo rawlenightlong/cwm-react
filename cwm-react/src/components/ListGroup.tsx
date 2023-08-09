@@ -1,5 +1,5 @@
 // { items: [], heading: string}
-import styles from "./ListGroup.module.css"
+import "./ListGroup.css"
 
 interface ListGroupProps {
   items: string[]
@@ -20,7 +20,7 @@ function ListGroup({items, heading, onSelectItem}: ListGroupProps) {
   return (<>
     <h1>{heading}</h1>
     {items.length === 0 ? <p>No Item Found</p> : null}
-    <ul className={styles.listGroup}>
+    <ul className={"listGroup"}>
     {items.map((item, index) => 
     <li
     className={selectedIndex === index ? "list-group-item active" : "list-group-item"}
