@@ -1,4 +1,5 @@
 // { items: [], heading: string}
+import "./ListGroup.css"
 
 interface ListGroupProps {
   items: string[]
