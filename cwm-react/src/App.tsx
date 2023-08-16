@@ -3,6 +3,9 @@ import './App.css'
 import ListGroup from './components/ListGroup'
 import Alert from './components/Alert'
 import Message2 from './components/Message2'
+import Form from './components/Form'
+import './index.css'
+
 function App() {
 
   const items = ["New York", "Tokyo", "London", "Paris"]
@@ -13,7 +16,8 @@ function App() {
     {/* <Alert>
       Hello <span>World</span>
     </Alert> */}
-    <Message2/>
+    {/* <Message2/> */}
+    <Form/>
 
   </div>
 }
