@@ -5,6 +5,7 @@ import Alert from './components/Alert'
 import Message2 from './components/Message2'
 import Form from './components/Form'
 import './index.css'
+import ControlledForm from './components/ControlledForm'
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
       Hello <span>World</span>
     </Alert> */}
     {/* <Message2/> */}
-    <Form/>
+    {/* <Form/> */}
+    <ControlledForm/>
 
   </div>
 }
